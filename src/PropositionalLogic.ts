@@ -381,10 +381,9 @@ let test = new BinClause(
     )
 )
 
-let parser = new CnfParser();
-console.log(parser.parse(toCNF(test)));
-
-//console.log(toDOT(toCNF(test)));
+// let parser = new CnfParser();
+// console.log(parser.parse(toCNF(test)));
+// console.log(toDOT(toCNF(test)));
 
 export {
     toCNF,

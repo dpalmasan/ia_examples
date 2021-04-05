@@ -1,10 +1,11 @@
 # Test Scripts
 
-Here I just place some test scripts to be run directly with `npx  ts-node`. You will probably like
-to deactivate the `module` attribute from `tsconfig.json` when running this as is. I will fix this 
-some day, when I get better at `typescript` and `React`. For now, it is, what it is.
+Aquí pongo ejemplos de uso de los scripts, los cuales se pueden correr vía `npx ts-node`. Por ahora, para que funcione, se debe desactivar el atributo `module` de `tsconfig.json`.
 
 ## `TestWumpus.ts`
 
-This script is just to play with diferent `Wumpus World` instances, and if you'd like to test the instance 
-in the AI book, you could just do something like `let wumpusWorld = generateWumpusWorld(true)`.
+Este script es para jugar con diferentes instancias del `Wumpus World`. Si quieres probar la instancia del libro de IA de Peter Norvig, puedes hacerlo modificando el código como sigue: `let wumpusWorld = generateWumpusWorld(true)`.
+
+## `GenerateSentencesNgram.ts`
+
+Este script genero oraciones utilizando un modelo de NGramas. El corpus que utilicé en el artículo no lo subí al repo, pero puedes armar un CORPUS personalizado y probar.
